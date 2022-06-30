@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bauri</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- CSS -->
+	<link rel="stylesheet" href="css/style_index.css">
+</head>
+<body>
+	<div class="header">
+		Pedidos al 1545366348 o podes acercarte al local en: Antezana 247, Buenos Aires
+	</div>
+<div class="contenedor">	
+	<nav id="mainNav">
+		<a href="index.html">
+			<img  class="logo" src="img/logo.png" alt="Logo de Bauri">
+		</a>
+		<ul>
+		 	<li>
+		 		<a href="views/productos.html">Productos</a>
+		 	</li>
+		 	<li>
+		 		<a href="views/hombre.html">Hombre</a>
+		 	</li>
+		 	<li>
+		 		<a href="views/mujer.html">Mujer</a>
+		 	</li>
+		 	<li>
+		 		<a href="views/contacto.html">Contacto</a>
+		 	</li>
+		</ul>
+	</nav>
+	<!--termina nav-->
+	<section>
+	<header class="encabezado" id="header">
+		<div class="img">
+			<img src="img/header.png" alt="Zapatillas de Bauri">
+		</div>
+	<section class="texto">
+		<h1>¿Quienes Somos?</h1>
+		<p>Lorem ipsum dolor, sit amet, consectetur adipisicing elit. Provident iusto laboriosam dignissimos, fugiat blanditiis quidem iste modi quia quas aperiam, ducimus sint sequi expedita quo adipisci praesentium sed, porro. Facilis.</p>
+		<h2>¿Como conseguimos nuestras zapatillas importadas?</h2>
+		<p>Lorem ipsum dolor sit amet consectetur adipisicing, elit. Id, sunt laborum est quo eligendi quod alias sit totam non iste pariatur officiis sint, in nesciunt nostrum dolorem possimus vero. Quia.</p>
+	</section>
+		<div class="img">
+			<img src="img/zapatillas1.png" alt="Zapatillas Nike">
+		</div>
+	</header>
+	<main id="productos">
+		<section class="texto">
+		<h2>Nuevos Productos</h2>
+		<p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. In odit ipsam eos dolores iure, fugit alias consectetur blanditiis totam maiores doloribus laboriosam, a assumenda natus ex, autem pariatur quod, atque.</p>
+		<h2>Productos Mas Vendidos</h2>
+		<p>Lorem, ipsum dolor sit amet, consectetur adipisicing elit. Vel hic, quidem cupiditate rerum tempora dolores ipsa dolor recusandae soluta a ratione tempore quasi, libero vero ut aut ipsum, aliquam repellat!</p>
+		</section>
+		</section>
+		<section> 
+			<h2 class="textantesform">Si desea comprar, rellene este formulario:</h2>
+			<form action="" id="contacto">
+				<fieldset>
+					<legend class="formularioredes">Informacion Personal</legend>
+					<div>
+						<label for="nombre">Nombre:</label>
+						<input type="text" id="nombre" placeholder="Juan Carlos" required>
+					</div>
+					<div>
+						<label for="email">Email:</label>
+						<input type="email" id="email" placeholder="juancarlos@gmail.com" required>
+						<input type="checkbox" id="mensaje" value="mensaje"> 
+						<label for="mensaje">Quiero recibir noticias y notificaciones de nuevos productos</label>
+					</div>
+						<label for="telefono">Telefono:</label>
+						<input type="text" id="telefono" placeholder="6427-8435">
+				</fieldset>
+				<fieldset>
+					<legend id="formulario" class="formularioredes">Informacion de Venta</legend>
+				<div>
+					<label for="zapatillas urbanas">Zapatillas Urbanas</label>
+					<input type="checkbox" id="zapatillas urbanas" value="zapatillas urbanas">
+				</div>
+				<div>
+					<label for="ropa deportiva">Ropa Deportiva</label>
+					<input type="checkbox" id="ropa deportiva" value="ropa deportiva">
+				</div>
+				<div>
+					<label for="ropa urbana">Ropa Urbana</label>
+					<input type="checkbox" id="ropa urbana" value="ropa urbana">
+				</div>
+				</fieldset>
+				<fieldset>
+					<legend id="formulario" class="formularioredes">Informacion de Envio</legend>
+				<div>
+					<label for="envio a domicilio">Envio a domicilio</label>
+					<input type="radio" id="envio a domicilio" value="envio a domicilio" name="envio" required>
+				</div>
+				<div>
+					<label for="retiro en local">Retiro en Local</label>
+					<input type="radio" id="retiro en local" value="retiro en local" name="envio" required>
+				</div>
+				<div>
+					<label for="localidad">Provincia:</label>
+					<select name="" id="localidad">
+						<option value="caba">Ciudad de Buenos Aires</option>
+						<option value="bsas">Provincia Buenos Aires</option>
+						<option value="interior">Interior del Pais</option>
+					</select>
+				</div>
+				</fieldset>
+				<fieldset>
+					<div>
+						<label for="mensaje">Deje su mensaje aqui:</label>
+					</div>
+					<div>
+						<textarea name="" id="mensaje" cols="30" rows="10" placeholder="Escriba aqui"></textarea>
+					</div>
+					<div>
+						<input type="reset" value="Cancelar">
+					<input type="submit" value="Enviar">
+					</div>
+				</fieldset>
+			</form>
+		</section>
+	</main>
+		<footer>
+		<section>
+			<h2 class="mapa">Encontranos aqui:</h2>
+			<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.9903905951624!2d-58.4442347!3d-34.6044045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca0d95ad77f5%3A0xdd0be977332b24c6!2sAntezana%20247%2C%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1653853459632!5m2!1ses-419!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+		</section>
+		<section>
+			<h3 class="formularioredes">Seguinos en nuestras redes!</h3>
+		<a href="https://es-la.facebook.com/" target="_blanck">
+			<img src="img/facebook.png" alt="Logo de Facebook">
+		</a>
+		<a href="https://twitter.com/" target="_blanck">
+			<img src="img/twitter.png" alt="Logo de Twitter">
+		</a>
+		<a href="https://instagram.com/" target="_blanck">
+			<img src="img/instagram.png" alt="Logo de Instagram">
+		</a>
+		</section>
+	</footer>
+</body>
+</html>
